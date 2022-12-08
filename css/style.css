@@ -551,18 +551,6 @@ main ul li {
     text-align: center;
 }
 
-/*
-.delivery {
-    display: flex;
-    justify-content: center;
-}
-
-.delivery img {
-    width: 50%;
-    height: 50%;
-    margin-top: 3rem;
-}
-*/
 
 /*---Main-somosgerminar---*/
 
@@ -592,11 +580,6 @@ main ul li {
 
 .main5 {
     padding: 0%;
-}
-
-.somosgerminar {
-    text-align: center;
-    padding: 20px;
 }
 
 
