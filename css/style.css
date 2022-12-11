@@ -302,6 +302,18 @@ main ul li {
     }
 }
 
+.s-menu {
+    background-image: url(../img/recetas-veggie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c-blanco {
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+}
+
 .span {
     display: none;
 }
@@ -597,6 +609,6 @@ main ul li {
     color: blueviolet;
 }
 
-.copyright{
+.copyright {
     font-size: 80%;
 }
