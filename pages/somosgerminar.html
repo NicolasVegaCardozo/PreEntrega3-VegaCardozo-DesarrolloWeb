@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="icon" href="../img/Logo Germinar.ico">
     <link rel="stylesheet" href="../css/style.css">
     <title>Germinar - Platos Veggies y Veganos, hace tu pedido</title>
@@ -30,10 +30,10 @@
 
             <ul>
                 <li><a href="../index.html" class="navegacion2">Inicio</a></li>
-                <li><a href="./nuestromenu.html" class="navegacion2">Nuestro Menu</a></li>
-                <li><a href="./contacto.html" class="navegacion2">Contacto</a></li>
-                <li><a href="./envios.html" class="navegacion2">Envios</a></li>
-                <li><a href="./somosgerminar.html" class="navegacion2">Somos Germinar</a></li>
+                <li><a href="nuestromenu.html" class="navegacion2">Nuestro Menu</a></li>
+                <li><a href="contacto.html" class="navegacion2">Contacto</a></li>
+                <li><a href="envios.html" class="navegacion2">Envios</a></li>
+                <li><a href="somosgerminar.html" class="navegacion2">Somos Germinar</a></li>
             </ul>
         </nav>
 
@@ -46,7 +46,7 @@
         <section class="portada5">
 
             <h1 class="text-center text-lg-start display-3 fw-bold">Gracias</h1>
-            <p></p>
+            <p class>Cocina a puro cuore ♥</p>
 
         </section>
 
@@ -54,20 +54,83 @@
             <div class="row paddingTB">
                 <div class="col-lg-8 col-xs-12">
                     <h2 class="text-center text-lg-start">Somos Germinar</h2>
-                    <p class="text-center text-lg-start p-2">Desde Germinar nuestro compromiso es ayudarnos a traves de una
+                    <p class="text-center text-lg-start p-2">Desde Germinar nuestro compromiso es ayudarnos a traves de
+                        una
                         mejor alimentacion.</p>
                     <p class="text-center text-lg-start p-2">Nos proponemos seguir compartiendo nuestro conocimiento,
                         nuestra filosofia y su sintesis: nuestros
                         platos.</p>
-                    <p class="text-center text-lg-start p-2">Cada semana cocinamos para vos porque creemos que otro tipo de
+                    <p class="text-center text-lg-start p-2">Cada semana cocinamos para vos porque creemos que otro tipo
+                        de
                         alimentacion es posible. ¡Y porque
                         sabemos que te hace bien!</p>
                 </div>
-                <section class="col-lg-4 col-xs-12">
+                <div class="col-lg-4 col-xs-12">
                     <img src="../img/gracias.jpg" alt="irving" class="img-fluid">
-                </section>
+                </div>
             </div>
-            
+
+
+        </section>
+
+        <section class="container-fluid c-yellow">
+            <div class="carrusel container">
+                <div class="row p-4">
+                    <h2 class="text-center text-lg-center">Nuestros Comensales</h2>
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner d-inline-block">
+                            <div class="carousel-item active">
+                                <img src="../img/gracias1.jpg" class="d-block w-25" alt="...">
+                                <img src="../img/gracias2.jpg" class="d-block w-25" alt="...">
+                                <img src="../img/gracias3.jpg" class="d-block w-25" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../img/gracias4.jpg" class="d-block w-25" alt="...">
+                                <img src="../img/gracias5.jpg" class="d-block w-25" alt="...">
+                                <img src="../img/gracias6.jpg" class="d-block w-25" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+        </section>
+
+        <section class="container p-3">
+            <div class="row p-4 d-flex justify-content-center align-items-center">
+                <div class="p-4 col-lg-8">
+                    <h3 class="d-flex justify-content-center fw-bold fs-4">Suscribite para recibir nuestras novedades
+                    </h3>
+                    <form action="" class="row d-flex justify-content-center align-items-center">
+                        <div class="row mb-3">
+                            <label class="col-2 col-form-label fw-bold" for="email"></label>
+                            <input class="p-2" type="email" placeholder="Ingresar mail">
+                        </div>
+                        <div class="col-2">
+                            <input type="submit" value="Enviar" class="btn btn-dark">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            </div>
+
+
             <section class="logogerminar">
                 <img src="../img/logogerminar.jpg" alt="logo germinar">
             </section>
@@ -92,12 +155,12 @@
                     <img src="../img/Logo Germinar2.png" alt="" class="w-50">
                     <span class="fs-5 text-center fw-bold">¡Nosotros te cocinamos!</span>
                     <div class="fs-3 d-flex justify-content-around">
-                        <a href="https://www.instagram.com/" target="_blank"
-                            class="c-rojo p-2"><i class="bi bi-instagram"></i></a>
-                        <a href="https://es-la.facebook.com/" target="_blank"
-                            class="c-rojo p-2"><i class="bi bi-facebook"></i></a>
-                        <a href="https://www.youtube.com/" target="_blank"
-                            class="c-rojo p-2"><i class="bi bi-youtube"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank" class="c-rojo p-2"><i
+                                class="bi bi-instagram"></i></a>
+                        <a href="https://es-la.facebook.com/" target="_blank" class="c-rojo p-2"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://www.youtube.com/" target="_blank" class="c-rojo p-2"><i
+                                class="bi bi-youtube"></i></a>
                     </div>
                 </div>
 
@@ -128,11 +191,11 @@
             </div>
 
             <div class="d-flex justify-content-center">
-                <span class="copyright">Nicolas Vega Cardozo Desarrollador Web | © 2022 Todos los derechos reservados
+                <span class="copyright">Nicolás Vega Cardozo | © 2022 Todos los derechos reservados
                 </span>
             </div>
         </div>
-        
+
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
