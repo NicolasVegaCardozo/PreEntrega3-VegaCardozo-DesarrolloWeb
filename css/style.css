@@ -31,7 +31,14 @@ a {
     box-shadow: 0px 0px 10px 10px rgb(78, 77, 77);
 }
 
+.btn-primary, .btn-dark {
+    background-color: #3a5a40;
+}
 
+.btn-primary:hover, .btn-dark:hover {
+    background-color: #3a5a40;
+    color: #ffbb00;
+}
 
 /*---Header---*/
 
@@ -64,7 +71,7 @@ nav img {
 }
 
 .navegacion2:hover {
-    color: orangered;
+    color: #ffbb00;
 }
 
 .menu-icon,
@@ -592,9 +599,10 @@ main ul li {
     text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 }
 
-.c-yellow{
-    background-color: #f48c06;
+.c-yellow {
+    background-color: #E6A522;
 }
+
 /*---Footer---*/
 
 .bg-footer {
