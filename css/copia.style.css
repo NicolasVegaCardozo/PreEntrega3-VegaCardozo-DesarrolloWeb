@@ -15,14 +15,14 @@ a {
 
 /*---Body---*/
 
-.wtp__sticky{
+.wtp__sticky {
     position: fixed;
     bottom: 25px;
     right: 20px;
     border-radius: 40px;
 }
 
-.wtp__sticky img{
+.wtp__sticky img {
     width: 5rem;
 }
 
@@ -31,7 +31,14 @@ a {
     box-shadow: 0px 0px 10px 10px rgb(78, 77, 77);
 }
 
+.btn-primary, .btn-dark {
+    background-color: #3a5a40;
+}
 
+.btn-primary:hover, .btn-dark:hover {
+    background-color: #3a5a40;
+    color: #ffbb00;
+}
 
 /*---Header---*/
 
@@ -64,7 +71,7 @@ nav img {
 }
 
 .navegacion2:hover {
-    color: orangered;
+    color: #ffbb00;
 }
 
 .menu-icon,
@@ -204,7 +211,7 @@ main ul li {
         height: 5rem;
     }
 
-    .container__promos1{
+    .container__promos1 {
         display: block;
         margin: auto;
         text-align: center;
@@ -295,11 +302,23 @@ main ul li {
         padding-bottom: 1rem;
     }
 
-    .container__promos1{
+    .container__promos1 {
         display: block;
         margin: auto;
         text-align: center;
     }
+}
+
+.s-menu {
+    background-image: url(../img/recetas-veggie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c-blanco {
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 }
 
 .span {
@@ -428,7 +447,7 @@ main ul li {
 
 .caja {
     background-color: #ffc8dd;
-    border: 2px solid #e63946;
+    border-radius: 2%;
     margin: 10px;
     padding: 20px;
     text-align: center;
@@ -509,57 +528,6 @@ main ul li {
     box-sizing: content-box;
 }
 
-.form {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.form label {
-    font-weight: bold;
-    display: block;
-    font-size: 14px;
-    margin-bottom: .3rem;
-}
-
-.form input {
-    display: block;
-    width: 30vw;
-}
-
-.form input:not([type="submit"]) {
-    padding: 1rem;
-    border: 1.5px solid #3a5a40;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    color: black;
-    font-size: 16px;
-}
-
-.form textarea {
-    width: 30vw;
-    height: 20vh;
-    padding: 1rem;
-    border: 1.5px solid #3a5a40;
-    border-radius: 5px;
-    margin-bottom: 1rem;
-    color: black;
-    font-size: 16px;
-}
-
-.form input[type="submit"] {
-    border-radius: 5px;
-    background-color: #3a5a40;
-    color: white;
-    font-weight: bolder;
-    font-size: 1rem;
-    padding: 1.5rem 3rem;
-    cursor: pointer;
-    width: 32.5vw;
-}
-
-.form input[type="submit"]:hover {
-    color: orangered;
-}
 
 .map {
     display: flex;
@@ -602,21 +570,11 @@ main ul li {
     text-align: center;
 }
 
-.delivery {
-    display: flex;
-    justify-content: center;
-}
-
-.delivery img {
-    width: 50%;
-    height: 50%;
-    margin-top: 3rem;
-}
 
 /*---Main-somosgerminar---*/
 
 .portada5 {
-    background-image: url(../img/somos\ germinar.jpg);
+    background-image: url(../img/somosgerminar.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -625,9 +583,11 @@ main ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: end;
+    padding: 15%;
     color: white;
 }
+
 
 .portada5 h1 {
     font-size: 3rem;
@@ -639,199 +599,24 @@ main ul li {
     text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 }
 
-.main5 {
-    padding: 0%;
+.c-yellow {
+    background-color: #E6A522;
 }
-
-.video {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-@media (max-width:767px) {
-    .video {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-left: 30%;
-        padding-right: 30%;
-    }
-}
-
-
-.somosgerminar {
-    text-align: center;
-    padding: 20px;
-}
-
 
 /*---Footer---*/
 
-@media (max-width: 767px) {
-    footer {
-        background-color: #ffc8dd;
-        padding: 40px 0px;
-    }
-
-    .spanfooter {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 1rem;
-    }
-
-    .spanfooter input:not([type="submit"]) {
-        padding: 0.5rem;
-        border: 1.5px solid #3a5a40;
-        border-radius: 5px;
-        margin-bottom: 0.5rem;
-        color: black;
-        font-size: 1rem;
-    }
-
-    .spanfooter input[type="button"] {
-        border-radius: 5px;
-        background-color: #3a5a40;
-        color: white;
-        font-weight: bolder;
-        font-size: 1rem;
-        padding: 0.5rem 2rem;
-        cursor: pointer;
-    }
-
-    .spanfooter input[type="button"]:hover {
-        color: orangered;
-    }
-
-    .h3footer {
-        display: none;
-    }
-
-    .footer {
-        display: flex;
-        flex-direction: column;
-
-    }
-
-    .div1 {
-        margin-top: 2em;
-        margin-right: 2em;
-        margin-bottom: 2em;
-        margin-left: 2em;
-        color: #e63946;
-    }
-
-    .div2 {
-        margin-top: 2em;
-        margin-right: 2em;
-        margin-bottom: 2em;
-        margin-left: 2em;
-        color: #e63946;
-    }
-
-    .div3 {
-        margin-top: 2em;
-        margin-right: 2em;
-        margin-bottom: 2em;
-        margin-left: 2em;
-        color: #e63946
-    }
-
-    .color {
-        color: #e63946;
-    }
-
-    .div1 a:hover {
-        color: #584992;
-    }
-
-    .div2 a:hover {
-        color: #584992;
-    }
-
-    .span2 {
-        display: flex;
-        justify-content: center;
-        font-size: 0.7rem;
-        color: #e63946;
-    }
+.bg-footer {
+    background-color: #ffc8dd;
 }
 
-@media (min-width:768px) {
-    footer {
-        background-color: #ffc8dd;
-        padding: 40px 0px;
-    }
+.c-rojo {
+    color: #e63946;
+}
 
-    .spanfooter {
-        display: none;
-    }
+.enlace {
+    color: blueviolet;
+}
 
-    .h3footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        color: #e63946;
-    }
-
-    footer a {
-        text-decoration: none;
-        color: #e63946;
-    }
-
-    footer ul li {
-        display: block;
-        padding: 1%;
-        color: #e63946;
-    }
-
-    .footer {
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .div1 {
-        display: inline-block;
-        margin-top: 2em;
-        margin-right: 2em;
-        margin-bottom: 2em;
-        margin-left: 2em;
-        color: #e63946;
-    }
-
-    .div2 {
-        display: inline-block;
-        margin-top: 2em;
-        margin-right: 2em;
-        margin-bottom: 2em;
-        margin-left: 2em;
-        color: #e63946;
-    }
-
-    .div3 {
-        display: inline-block;
-        margin-top: 2em;
-        margin-right: 2em;
-        margin-bottom: 2em;
-        margin-left: 2em;
-        color: #e63946
-    }
-
-
-    .div1 a:hover {
-        color: #584992;
-    }
-
-    .div2 a:hover {
-        color: #584992;
-    }
-
-    .span2 {
-        display: flex;
-        justify-content: center;
-        font-size: 0.7rem;
-        color: #e63946;
-    }
+.copyright {
+    font-size: 80%;
 }

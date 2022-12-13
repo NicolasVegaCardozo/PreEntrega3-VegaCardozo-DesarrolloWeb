@@ -1,0 +1,52 @@
+/*---Main-contacto---*/
+
+.portada3 {
+    background-image: url(../img/pastel\ de\ papas.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.portada3 h1 {
+    font-size: 3rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+}
+
+.portada3 p {
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+}
+
+.section3 {
+    display: flex;
+    justify-content: center;
+}
+
+.section3 div {
+    width: 30vw;
+}
+
+.main3 {
+    padding: 0%;
+}
+
+.div0 ul li {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: content-box;
+}
+
+
+.map {
+    display: flex;
+    justify-content: center;
+
+}

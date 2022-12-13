@@ -1,0 +1,31 @@
+/*---Main-somosgerminar---*/
+
+.portada5 {
+    background-image: url(../img/somosgerminar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 15%;
+    color: white;
+}
+
+
+.portada5 h1 {
+    font-size: 3rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+}
+
+.portada5 p {
+    font-size: 1.5rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+}
+
+.c-yellow {
+    background-color: #E6A522;
+}

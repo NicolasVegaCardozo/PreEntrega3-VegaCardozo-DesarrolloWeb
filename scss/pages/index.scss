@@ -1,0 +1,211 @@
+/*---Main-index---*/
+
+main h2 {
+    text-align: center;
+    font-weight: bolder;
+}
+
+main ul li {
+    display: inline-block;
+    padding: 2em;
+}
+
+
+@media (max-width:767px) {
+    .portada {
+        background-image: url(../img/bowl2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .portada h1 {
+        font-size: 2.5rem;
+        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+    }
+
+    .portada p {
+        padding: 5%;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+    }
+
+    .promos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-weight: bolder;
+        padding-bottom: 10%;
+    }
+
+    .promos img {
+        margin-top: 1rem;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .container__promos1 {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+
+
+@media (max-width:1199px) {
+    .imagenes {
+        display: flex;
+        flex-direction: column;
+        padding-top: 5%;
+    }
+
+    .imagenes img {
+        display: flex;
+        justify-content: center;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 5%;
+        margin-top: 0.5%;
+        margin-right: 0.5%;
+        margin-bottom: 0.5%;
+        margin-left: 0.5%;
+    }
+}
+
+@media (min-width:1200px) {
+    .imagenes {
+        display: flex;
+        justify-content: center;
+        padding: 1%;
+    }
+
+    .imagenes img {
+        width: 32%;
+        display: inline-block;
+        margin-top: 0.5%;
+        margin-right: 0.5%;
+        margin-bottom: 0.5%;
+        margin-left: 0.5%;
+    }
+}
+
+
+
+@media (min-width:768px) {
+    .portada {
+        background-image: url(../img/bowl2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .portada h1 {
+        font-size: 3rem;
+        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+    }
+
+    .portada p {
+        font-size: 1.5rem;
+        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+    }
+
+    .promos {
+        display: flex;
+        justify-content: space-around;
+        padding: 0%;
+    }
+
+    .promos img {
+        margin-top: 1rem;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .promos1 {
+        padding-top: 1rem;
+        font-weight: bolder;
+        padding-bottom: 1rem;
+    }
+
+    .container__promos1 {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+.s-menu {
+    background-image: url(../img/recetas-veggie.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.c-blanco {
+    color: #ffffff;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+}
+
+.span {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .span {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .span input:not([type="submit"]) {
+        padding: 0.5rem;
+        border: 1.5px solid #3a5a40;
+        border-radius: 5px;
+        margin-bottom: 0.5rem;
+        color: black;
+        font-size: 1rem;
+    }
+
+    .span input[type="button"] {
+        border-radius: 5px;
+        background-color: #3a5a40;
+        color: white;
+        font-weight: bolder;
+        font-size: 1rem;
+        padding: 0.5rem 2rem;
+        cursor: pointer;
+    }
+
+    .span input[type="button"]:hover {
+        color: orangered;
+    }
+}
+
+.logogerminar {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .logogerminar {
+        display: flex;
+        justify-content: center;
+    }
+}

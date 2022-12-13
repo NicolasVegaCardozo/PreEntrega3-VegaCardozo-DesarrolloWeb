@@ -1,0 +1,113 @@
+/*---Main-nuestromenu---*/
+@media (max-width:767px) {
+    .portada2 {
+        background-image: url(../img/nuestro\ menu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .portada2 h1 {
+        font-size: 2.5rem;
+        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+    }
+
+    .portada2 p {
+        padding: 5%;
+        font-size: 1.2rem;
+        display: flex;
+        align-items: center;
+        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+    }
+}
+
+@media(min-width:768px) {
+    .portada2 {
+        background-image: url(../img/nuestro\ menu.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+
+    .portada2 h1 {
+        font-size: 3rem;
+        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+    }
+
+    .portada2 p {
+        font-size: 1.5rem;
+        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+    }
+}
+
+
+.main2 {
+    padding: 0;
+}
+
+.menu div h3 {
+    display: inline-block;
+}
+
+.fotos img {
+    width: 50%;
+
+}
+
+.nuestromenu {
+    width: 80%;
+    margin: 0 auto;
+    background: lightyellow;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.caja {
+    background-color: #ffc8dd;
+    border-radius: 2%;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    height: 90%;
+    -webkit-box-shadow: -1px 0px 19px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 0px 19px 4px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 0px 19px 4px rgba(0, 0, 0, 0.75);
+}
+
+.caja:hover {
+    background: linear-gradient(45deg, #e63946, #f68a93);
+    color: white;
+
+}
+
+
+.cajadelacaja {
+    padding-top: 5%;
+    width: 100%;
+    height: 80%;
+}
+
+@media (max-width:767px) {
+    .nuestromenu {
+        width: 80%;
+        margin: 0 auto;
+        background: lightyellow;
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
