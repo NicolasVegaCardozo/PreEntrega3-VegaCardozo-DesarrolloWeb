@@ -12,23 +12,16 @@
     justify-content: center;
     align-items: center;
     color: white;
-}
-
-.portada4 h1 {
-    font-size: 3rem;
-    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
-}
-
-.portada4 p {
-    font-size: 1.5rem;
-    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+    h1 {
+        font-size: 3rem;
+        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+        p {
+            font-size: 1.5rem;
+            text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+        }
+    }    
 }
 
 .main4 {
     padding: 0%;
-}
-
-.textoenvios {
-    padding: 2%;
-    text-align: center;
 }

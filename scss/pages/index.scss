@@ -1,13 +1,17 @@
 /*---Main-index---*/
 
-main h2 {
-    text-align: center;
-    font-weight: bolder;
-}
+main {
+    h2 {
+        text-align: center;
+        font-weight: bolder;
 
-main ul li {
-    display: inline-block;
-    padding: 2em;
+        ul {
+            li {
+                display: inline-block;
+                padding: 2em;
+            }
+        }
+    }
 }
 
 
@@ -24,19 +28,19 @@ main ul li {
         justify-content: center;
         align-items: center;
         color: white;
-    }
 
-    .portada h1 {
-        font-size: 2.5rem;
-        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
-    }
+        h1 {
+            font-size: 2.5rem;
+            text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 
-    .portada p {
-        padding: 5%;
-        font-size: 1.2rem;
-        display: flex;
-        align-items: center;
-        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+            p {
+                padding: 5%;
+                font-size: 1.2rem;
+                display: flex;
+                align-items: center;
+                text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+            }
+        }
     }
 
     .promos {
@@ -62,24 +66,23 @@ main ul li {
 }
 
 
-
 @media (max-width:1199px) {
     .imagenes {
         display: flex;
         flex-direction: column;
         padding-top: 5%;
-    }
 
-    .imagenes img {
-        display: flex;
-        justify-content: center;
-        padding-left: 20%;
-        padding-right: 20%;
-        padding-bottom: 5%;
-        margin-top: 0.5%;
-        margin-right: 0.5%;
-        margin-bottom: 0.5%;
-        margin-left: 0.5%;
+        img {
+            display: flex;
+            justify-content: center;
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-bottom: 5%;
+            margin-top: 0.5%;
+            margin-right: 0.5%;
+            margin-bottom: 0.5%;
+            margin-left: 0.5%;
+        }
     }
 }
 
@@ -88,18 +91,17 @@ main ul li {
         display: flex;
         justify-content: center;
         padding: 1%;
-    }
 
-    .imagenes img {
-        width: 32%;
-        display: inline-block;
-        margin-top: 0.5%;
-        margin-right: 0.5%;
-        margin-bottom: 0.5%;
-        margin-left: 0.5%;
+        img {
+            width: 32%;
+            display: inline-block;
+            margin-top: 0.5%;
+            margin-right: 0.5%;
+            margin-bottom: 0.5%;
+            margin-left: 0.5%;
+        }
     }
 }
-
 
 
 @media (min-width:768px) {
@@ -115,29 +117,30 @@ main ul li {
         justify-content: center;
         align-items: center;
         color: white;
-    }
 
-    .portada h1 {
-        font-size: 3rem;
-        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
-    }
+        h1 {
+            font-size: 3rem;
+            text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
 
-    .portada p {
-        font-size: 1.5rem;
-        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+            p {
+                font-size: 1.5rem;
+                text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+            }
+        }
     }
 
     .promos {
         display: flex;
         justify-content: space-around;
         padding: 0%;
+
+        img {
+            margin-top: 1rem;
+            width: 5rem;
+            height: 5rem;
+        }
     }
 
-    .promos img {
-        margin-top: 1rem;
-        width: 5rem;
-        height: 5rem;
-    }
 
     .promos1 {
         padding-top: 1rem;
@@ -173,29 +176,29 @@ main ul li {
         display: flex;
         justify-content: center;
         padding: 1rem;
-    }
 
-    .span input:not([type="submit"]) {
-        padding: 0.5rem;
-        border: 1.5px solid #3a5a40;
-        border-radius: 5px;
-        margin-bottom: 0.5rem;
-        color: black;
-        font-size: 1rem;
-    }
+        input:not([type="submit"]) {
+            padding: 0.5rem;
+            border: 1.5px solid #3a5a40;
+            border-radius: 5px;
+            margin-bottom: 0.5rem;
+            color: black;
+            font-size: 1rem;
 
-    .span input[type="button"] {
-        border-radius: 5px;
-        background-color: #3a5a40;
-        color: white;
-        font-weight: bolder;
-        font-size: 1rem;
-        padding: 0.5rem 2rem;
-        cursor: pointer;
-    }
+            input[type="button"] {
+                border-radius: 5px;
+                background-color: #3a5a40;
+                color: white;
+                font-weight: bolder;
+                font-size: 1rem;
+                padding: 0.5rem 2rem;
+                cursor: pointer;
 
-    .span input[type="button"]:hover {
-        color: orangered;
+                input[type="button"]:hover {
+                    color: orangered;
+                }
+            }
+        }
     }
 }
 

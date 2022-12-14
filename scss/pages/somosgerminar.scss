@@ -13,17 +13,15 @@
     align-items: end;
     padding: 15%;
     color: white;
-}
-
-
-.portada5 h1 {
-    font-size: 3rem;
-    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
-}
-
-.portada5 p {
-    font-size: 1.5rem;
-    text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+    
+    h1 {
+        font-size: 3rem;
+        text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+        p {
+            font-size: 1.5rem;
+            text-shadow: 3px 3px 4px black, 0 0 2em black, 0 0 1em black;
+        }  
+    }   
 }
 
 .c-yellow {
