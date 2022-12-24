@@ -33,11 +33,13 @@ a {
 .btn-primary,
 .btn-dark {
   background-color: #3a5a40;
+  border-color: #3a5a40;
 }
 
 .btn-primary:hover,
 .btn-dark:hover {
   background-color: #3a5a40;
+  border-color: #3a5a40;
   color: #ffbb00;
 }
 
